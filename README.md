@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## Configuration
 
 
-Obtain an API Key from Aplpha Vantage
+[Obtain an API Key](https://www.alphavantage.co/support/#api-key) from AlphaVantage.
 
 Then create a local .env file and provide the key like this:
 ''sh
@@ -43,6 +43,10 @@ python app/unemployment_report.py
 API_KEY="____________" python app/unemployment_report.py
 '''
 
+#run stocks report:
+'''sh
+python app/stocks.py
+'''
 
 
 
