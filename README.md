@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Then create a local .env file and provide the key like this:
 ''sh
 # this is the ".env" file...
-API_KEY="abc123"
+API_KEY="OPEKNZB4Q8AUFTDY"
 '''
 
 ## usage
@@ -36,17 +36,17 @@ python app/my_script.py
 
 Run the unemployment report:
 '''sh
-python app/unemployment_report.py
+python -m app.unemployment_report
 '''
 
-#or pass env var from command line:
+## or pass env var from command line:
 API_KEY="____________" python app/unemployment_report.py
 '''
 
-#run stocks report:
+## run stocks report:
 '''sh
-python app/stocks.py
+#python app/stocks.py
 '''
 
-
+python -m app.stocks
 
