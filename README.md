@@ -5,16 +5,16 @@
 
 Create and activate a virtual environment:
 
-'''sh
+```sh
 conda create -n unemployment-env python=3.8
 
 conda activate unemployment-env
-'''
+```
 
 Install package dependencies:
-'''sh
+```sh
 pip install -r requirements.txt
-'''
+```
 
 ## Configuration
 
@@ -22,31 +22,39 @@ pip install -r requirements.txt
 [Obtain an API Key](https://www.alphavantage.co/support/#api-key) from AlphaVantage.
 
 Then create a local .env file and provide the key like this:
-''sh
+```sh
 # this is the ".env" file...
-API_KEY="OPEKNZB4Q8AUFTDY"
-'''
+API_KEY="{Insert API Key here}"
+```
 
 ## usage
 
 Run a sample script:
-'''sh
+```sh
 python app/my_script.py
-'''
+```
 
 Run the unemployment report:
-'''sh
+```sh
 python -m app.unemployment_report
-'''
+```
 
 ## or pass env var from command line:
+```sh
 API_KEY="____________" python app/unemployment_report.py
-'''
+```
 
 ## run stocks report:
-'''sh
+```sh
 #python app/stocks.py
-'''
+```
 
 python -m app.stocks
 
+## Testing
+
+Run tests:
+
+```sh
+pytest
+```
