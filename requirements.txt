@@ -9,3 +9,6 @@ requests
 plotly
 
 pytest
+
+#for our web app interface:
+flask
