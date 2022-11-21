@@ -13,5 +13,5 @@ pytest
 #for our web app interface:
 flask
 
-#The heroku server wants to use this package when running our app
+#The hiroku server wants to use this package when running our app
 guinicorn
