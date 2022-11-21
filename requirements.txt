@@ -14,4 +14,4 @@ pytest
 flask
 
 #The hiroku server wants to use this package when running our app
-guinicorn
+gunicorn
