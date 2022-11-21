@@ -9,3 +9,9 @@ requests
 plotly
 
 pytest
+
+#for our web app interface:
+flask
+
+#The heroku server wants to use this package when running our app
+guinicorn
